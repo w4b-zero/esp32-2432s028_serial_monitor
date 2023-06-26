@@ -1,8 +1,8 @@
 #!/bin/bash
 PATHS="/"
 HOSTNAME=$(hostname)
-mkdir -p /home/silly/mylogs
-LOGFILE=/home/silly/mylogs/sendusb-`date +%h%d%y`.log
+mkdir -p /var/logs/mylogs
+LOGFILE=/var/logs/mylogs/sendusb-`date +%h%d%y`.log
 UNAME=$USER
 if [[ -z $UNAME ]];
 then
